@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fontsxin/iconfont.css">
+    <script>		
+        document.documentElement.style.fontSize=document.documentElement.clientWidth/375*50+'px';
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">假日旅行</header>
+        <section class="main">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination span"></div>
+            </div>
+            <div class="box">
+                <dl>
+                    <dd><i class="icon iconfont icon-shouye"></i></dd>
+                    <dt>热门景点</dt>
+                </dl>
+                <dl>
+                    <dd><i class="icon iconfont icon-lingsheng"></i></dd>
+                    <dt>记账簿</dt>
+                </dl>
+                <dl>
+                    <dd><i class="icon iconfont icon-fengjing"></i></dd>
+                    <dt>境内/境外</dt>
+                </dl>
+                <dl>
+                    <dd><i class="icon iconfont icon-gouwuche"></i></dd>
+                    <dt>轮船票</dt>
+                </dl>
+                <dl>
+                    <dd><i class="icon iconfont icon-fenxiang5"></i></dd>
+                    <dt>酒店</dt>
+                </dl>
+                <dl>
+                    <dd><i class="icon iconfont icon-shouye"></i></dd>
+                    <dt>飞机票</dt>
+                </dl>
+                <dl>
+                    <dd><i class="icon iconfont icon-wode"></i></dd>
+                    <dt>火车票</dt>
+                </dl>
+                <dl>
+                    <dd><i class="icon iconfont icon-31"></i></dd>
+                    <dt>行程记录</dt>
+                </dl>
+            </div>
+            <div class="mainbox">
+                <ul>
+                    <li>
+                        <h3>
+                            热销榜
+                            <p>大家都爱玩</p>
+                        </h3>
+                        <img src="img/m1.jpg" alt="">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>
+                            我身边
+                            <p>附近有什么</p>
+                        </h3>
+                        <img src="img/m2.jpg" alt="">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>
+                            千元出国
+                            <p>周二、五开抢</p>
+                        </h3>
+                        <img src="img/m4.jpg" class="img">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>
+                            旅游日历
+                            <p>1元门票早知道</p>
+                        </h3>
+                        <img src="img/m4.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <ul>
+                <li><i class="icon iconfont icon-shouye"></i><a href="#">首页</a></li>
+                <li><i class="icon iconfont icon-fengjing"></i><a href="#"></a>订单</li>
+                <li><i class="icon iconfont icon-wode"></i><a href="#"></a>我的</li>
+                <li><i class="icon iconfont icon-gengduo"></i><a href="#"></a>更多</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/swiper-3.3.1.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container',{
+            autoplay:1000,
+            loop:true,
+            effect:'flip',
+            pagination:'.swiper-pagination',
+            paginationType:'progress',
+            paginationClickable:true,
+            autoplayDisableOnIntercation:false
+        });
+    </script>
+</body>
+</html>
